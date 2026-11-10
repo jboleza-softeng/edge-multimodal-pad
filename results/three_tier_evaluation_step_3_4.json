@@ -1,0 +1,62 @@
+{
+  "dev": {
+    "n_live": 15,
+    "n_attack": 45,
+    "tau_high": 0.81,
+    "tau_low": 0.5,
+    "definitive_false_accepts": 1,
+    "definitive_apcer_pct": 2.22,
+    "definitive_false_rejects": 0,
+    "definitive_bpcer_pct": 0.0,
+    "live_escalated_count": 1,
+    "live_escalation_pct": 6.67,
+    "attack_escalated_count": 36,
+    "attack_escalation_pct": 80.0,
+    "attack_breakdown": {
+      "print_photo": {
+        "total": 15,
+        "def_accept_fa": 1,
+        "def_apcer": 6.666666666666667,
+        "escalated": 14,
+        "def_reject_tr": 0
+      },
+      "screen_replay": {
+        "total": 30,
+        "def_accept_fa": 0,
+        "def_apcer": 0.0,
+        "escalated": 22,
+        "def_reject_tr": 8
+      }
+    }
+  },
+  "test": {
+    "n_live": 15,
+    "n_attack": 40,
+    "tau_high": 0.81,
+    "tau_low": 0.5,
+    "definitive_false_accepts": 1,
+    "definitive_apcer_pct": 2.5,
+    "definitive_false_rejects": 0,
+    "definitive_bpcer_pct": 0.0,
+    "live_escalated_count": 2,
+    "live_escalation_pct": 13.33,
+    "attack_escalated_count": 34,
+    "attack_escalation_pct": 85.0,
+    "attack_breakdown": {
+      "print_photo": {
+        "total": 15,
+        "def_accept_fa": 0,
+        "def_apcer": 0.0,
+        "escalated": 14,
+        "def_reject_tr": 1
+      },
+      "screen_replay": {
+        "total": 25,
+        "def_accept_fa": 1,
+        "def_apcer": 4.0,
+        "escalated": 20,
+        "def_reject_tr": 4
+      }
+    }
+  }
+}

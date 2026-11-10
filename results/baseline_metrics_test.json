@@ -1,0 +1,1372 @@
+{
+  "fused_score": {
+    "auc": 0.97667,
+    "eer_percent": 1.25,
+    "eer_threshold": 0.6321,
+    "bpcer_at_apcer_1_percent": 93.33,
+    "threshold_at_apcer_1": 0.9426,
+    "achieved_apcer_1_percent": 0.0,
+    "bpcer_at_apcer_5_percent": 0.0,
+    "threshold_at_apcer_5": 0.6321,
+    "achieved_apcer_5_percent": 2.5,
+    "eer_evaluation": {
+      "threshold": 0.6321,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 0,
+      "false_accepts": 1,
+      "bpcer_percent": 0.0,
+      "apcer_percent": 2.5,
+      "acer_percent": 1.25,
+      "worst_apcer_percent": 4.0,
+      "ci_bpcer_95": {
+        "point": 0.0,
+        "lower": 0.0,
+        "upper": 20.39
+      },
+      "ci_apcer_95": {
+        "point": 2.5,
+        "lower": 0.44,
+        "upper": 12.88
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 20.39
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 1,
+          "apcer_percent": 4.0,
+          "ci_95": {
+            "point": 4.0,
+            "lower": 0.71,
+            "upper": 19.54
+          }
+        }
+      }
+    },
+    "fixed_apcer_1_evaluation": {
+      "threshold": 0.9426,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 14,
+      "false_accepts": 0,
+      "bpcer_percent": 93.33,
+      "apcer_percent": 0.0,
+      "acer_percent": 46.67,
+      "worst_apcer_percent": 0.0,
+      "ci_bpcer_95": {
+        "point": 93.33,
+        "lower": 70.18,
+        "upper": 98.81
+      },
+      "ci_apcer_95": {
+        "point": 0.0,
+        "lower": 0.0,
+        "upper": 8.76
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 20.39
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 13.32
+          }
+        }
+      }
+    },
+    "fixed_apcer_5_evaluation": {
+      "threshold": 0.6321,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 0,
+      "false_accepts": 1,
+      "bpcer_percent": 0.0,
+      "apcer_percent": 2.5,
+      "acer_percent": 1.25,
+      "worst_apcer_percent": 4.0,
+      "ci_bpcer_95": {
+        "point": 0.0,
+        "lower": 0.0,
+        "upper": 20.39
+      },
+      "ci_apcer_95": {
+        "point": 2.5,
+        "lower": 0.44,
+        "upper": 12.88
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 20.39
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 1,
+          "apcer_percent": 4.0,
+          "ci_95": {
+            "point": 4.0,
+            "lower": 0.71,
+            "upper": 19.54
+          }
+        }
+      }
+    },
+    "calibrated_from_dev": {
+      "eer_threshold_dev": 0.7038,
+      "test_eval_at_dev_eer": {
+        "threshold": 0.7038,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 3,
+        "false_accepts": 1,
+        "bpcer_percent": 20.0,
+        "apcer_percent": 2.5,
+        "acer_percent": 11.25,
+        "worst_apcer_percent": 4.0,
+        "ci_bpcer_95": {
+          "point": 20.0,
+          "lower": 7.05,
+          "upper": 45.19
+        },
+        "ci_apcer_95": {
+          "point": 2.5,
+          "lower": 0.44,
+          "upper": 12.88
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 1,
+            "apcer_percent": 4.0,
+            "ci_95": {
+              "point": 4.0,
+              "lower": 0.71,
+              "upper": 19.54
+            }
+          }
+        }
+      },
+      "th_at_apcer_1_dev": 0.8835,
+      "test_eval_at_dev_th_1": {
+        "threshold": 0.8835,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 10,
+        "false_accepts": 1,
+        "bpcer_percent": 66.67,
+        "apcer_percent": 2.5,
+        "acer_percent": 34.58,
+        "worst_apcer_percent": 4.0,
+        "ci_bpcer_95": {
+          "point": 66.67,
+          "lower": 41.71,
+          "upper": 84.82
+        },
+        "ci_apcer_95": {
+          "point": 2.5,
+          "lower": 0.44,
+          "upper": 12.88
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 1,
+            "apcer_percent": 4.0,
+            "ci_95": {
+              "point": 4.0,
+              "lower": 0.71,
+              "upper": 19.54
+            }
+          }
+        }
+      },
+      "th_at_apcer_5_dev": 0.7508,
+      "test_eval_at_dev_th_5": {
+        "threshold": 0.7508,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 9,
+        "false_accepts": 1,
+        "bpcer_percent": 60.0,
+        "apcer_percent": 2.5,
+        "acer_percent": 31.25,
+        "worst_apcer_percent": 4.0,
+        "ci_bpcer_95": {
+          "point": 60.0,
+          "lower": 35.75,
+          "upper": 80.18
+        },
+        "ci_apcer_95": {
+          "point": 2.5,
+          "lower": 0.44,
+          "upper": 12.88
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 1,
+            "apcer_percent": 4.0,
+            "ci_95": {
+              "point": 4.0,
+              "lower": 0.71,
+              "upper": 19.54
+            }
+          }
+        }
+      }
+    }
+  },
+  "depth_score": {
+    "auc": 0.89,
+    "eer_percent": 12.92,
+    "eer_threshold": 0.7365,
+    "bpcer_at_apcer_1_percent": 73.33,
+    "threshold_at_apcer_1": 0.8688,
+    "achieved_apcer_1_percent": 0.0,
+    "bpcer_at_apcer_5_percent": 66.67,
+    "threshold_at_apcer_5": 0.8527,
+    "achieved_apcer_5_percent": 5.0,
+    "eer_evaluation": {
+      "threshold": 0.7365,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 2,
+      "false_accepts": 5,
+      "bpcer_percent": 13.33,
+      "apcer_percent": 12.5,
+      "acer_percent": 12.92,
+      "worst_apcer_percent": 16.0,
+      "ci_bpcer_95": {
+        "point": 13.33,
+        "lower": 3.74,
+        "upper": 37.88
+      },
+      "ci_apcer_95": {
+        "point": 12.5,
+        "lower": 5.46,
+        "upper": 26.11
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 1,
+          "apcer_percent": 6.67,
+          "ci_95": {
+            "point": 6.67,
+            "lower": 1.19,
+            "upper": 29.82
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 4,
+          "apcer_percent": 16.0,
+          "ci_95": {
+            "point": 16.0,
+            "lower": 6.4,
+            "upper": 34.65
+          }
+        }
+      }
+    },
+    "fixed_apcer_1_evaluation": {
+      "threshold": 0.8688,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 11,
+      "false_accepts": 0,
+      "bpcer_percent": 73.33,
+      "apcer_percent": 0.0,
+      "acer_percent": 36.67,
+      "worst_apcer_percent": 0.0,
+      "ci_bpcer_95": {
+        "point": 73.33,
+        "lower": 48.05,
+        "upper": 89.1
+      },
+      "ci_apcer_95": {
+        "point": 0.0,
+        "lower": 0.0,
+        "upper": 8.76
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 20.39
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 13.32
+          }
+        }
+      }
+    },
+    "fixed_apcer_5_evaluation": {
+      "threshold": 0.8527,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 10,
+      "false_accepts": 2,
+      "bpcer_percent": 66.67,
+      "apcer_percent": 5.0,
+      "acer_percent": 35.83,
+      "worst_apcer_percent": 8.0,
+      "ci_bpcer_95": {
+        "point": 66.67,
+        "lower": 41.71,
+        "upper": 84.82
+      },
+      "ci_apcer_95": {
+        "point": 5.0,
+        "lower": 1.38,
+        "upper": 16.5
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 20.39
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 2,
+          "apcer_percent": 8.0,
+          "ci_95": {
+            "point": 8.0,
+            "lower": 2.22,
+            "upper": 24.97
+          }
+        }
+      }
+    },
+    "calibrated_from_dev": {
+      "eer_threshold_dev": 0.8223,
+      "test_eval_at_dev_eer": {
+        "threshold": 0.8223,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 8,
+        "false_accepts": 3,
+        "bpcer_percent": 53.33,
+        "apcer_percent": 7.5,
+        "acer_percent": 30.42,
+        "worst_apcer_percent": 12.0,
+        "ci_bpcer_95": {
+          "point": 53.33,
+          "lower": 30.12,
+          "upper": 75.19
+        },
+        "ci_apcer_95": {
+          "point": 7.5,
+          "lower": 2.58,
+          "upper": 19.86
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 3,
+            "apcer_percent": 12.0,
+            "ci_95": {
+              "point": 12.0,
+              "lower": 4.17,
+              "upper": 29.96
+            }
+          }
+        }
+      },
+      "th_at_apcer_1_dev": 1.0001,
+      "test_eval_at_dev_th_1": {
+        "threshold": 1.0001,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 15,
+        "false_accepts": 0,
+        "bpcer_percent": 100.0,
+        "apcer_percent": 0.0,
+        "acer_percent": 50.0,
+        "worst_apcer_percent": 0.0,
+        "ci_bpcer_95": {
+          "point": 100.0,
+          "lower": 79.61,
+          "upper": 100.0
+        },
+        "ci_apcer_95": {
+          "point": 0.0,
+          "lower": 0.0,
+          "upper": 8.76
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 13.32
+            }
+          }
+        }
+      },
+      "th_at_apcer_5_dev": 1.0,
+      "test_eval_at_dev_th_5": {
+        "threshold": 1.0,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 14,
+        "false_accepts": 0,
+        "bpcer_percent": 93.33,
+        "apcer_percent": 0.0,
+        "acer_percent": 46.67,
+        "worst_apcer_percent": 0.0,
+        "ci_bpcer_95": {
+          "point": 93.33,
+          "lower": 70.18,
+          "upper": 98.81
+        },
+        "ci_apcer_95": {
+          "point": 0.0,
+          "lower": 0.0,
+          "upper": 8.76
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 13.32
+            }
+          }
+        }
+      }
+    }
+  },
+  "rppg_score": {
+    "auc": 0.365,
+    "eer_percent": 56.25,
+    "eer_threshold": 0.7269,
+    "bpcer_at_apcer_1_percent": 100.0,
+    "threshold_at_apcer_1": 0.9501,
+    "achieved_apcer_1_percent": 0.0,
+    "bpcer_at_apcer_5_percent": 100.0,
+    "threshold_at_apcer_5": 0.9501,
+    "achieved_apcer_5_percent": 0.0,
+    "eer_evaluation": {
+      "threshold": 0.7269,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 9,
+      "false_accepts": 21,
+      "bpcer_percent": 60.0,
+      "apcer_percent": 52.5,
+      "acer_percent": 56.25,
+      "worst_apcer_percent": 86.67,
+      "ci_bpcer_95": {
+        "point": 60.0,
+        "lower": 35.75,
+        "upper": 80.18
+      },
+      "ci_apcer_95": {
+        "point": 52.5,
+        "lower": 37.5,
+        "upper": 67.06
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 13,
+          "apcer_percent": 86.67,
+          "ci_95": {
+            "point": 86.67,
+            "lower": 62.12,
+            "upper": 96.26
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 8,
+          "apcer_percent": 32.0,
+          "ci_95": {
+            "point": 32.0,
+            "lower": 17.21,
+            "upper": 51.59
+          }
+        }
+      }
+    },
+    "fixed_apcer_1_evaluation": {
+      "threshold": 0.9501,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 15,
+      "false_accepts": 0,
+      "bpcer_percent": 100.0,
+      "apcer_percent": 0.0,
+      "acer_percent": 50.0,
+      "worst_apcer_percent": 0.0,
+      "ci_bpcer_95": {
+        "point": 100.0,
+        "lower": 79.61,
+        "upper": 100.0
+      },
+      "ci_apcer_95": {
+        "point": 0.0,
+        "lower": 0.0,
+        "upper": 8.76
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 20.39
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 13.32
+          }
+        }
+      }
+    },
+    "fixed_apcer_5_evaluation": {
+      "threshold": 0.9501,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 15,
+      "false_accepts": 0,
+      "bpcer_percent": 100.0,
+      "apcer_percent": 0.0,
+      "acer_percent": 50.0,
+      "worst_apcer_percent": 0.0,
+      "ci_bpcer_95": {
+        "point": 100.0,
+        "lower": 79.61,
+        "upper": 100.0
+      },
+      "ci_apcer_95": {
+        "point": 0.0,
+        "lower": 0.0,
+        "upper": 8.76
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 20.39
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 13.32
+          }
+        }
+      }
+    },
+    "calibrated_from_dev": {
+      "eer_threshold_dev": 0.7542,
+      "test_eval_at_dev_eer": {
+        "threshold": 0.7542,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 9,
+        "false_accepts": 19,
+        "bpcer_percent": 60.0,
+        "apcer_percent": 47.5,
+        "acer_percent": 53.75,
+        "worst_apcer_percent": 73.33,
+        "ci_bpcer_95": {
+          "point": 60.0,
+          "lower": 35.75,
+          "upper": 80.18
+        },
+        "ci_apcer_95": {
+          "point": 47.5,
+          "lower": 32.94,
+          "upper": 62.5
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 11,
+            "apcer_percent": 73.33,
+            "ci_95": {
+              "point": 73.33,
+              "lower": 48.05,
+              "upper": 89.1
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 8,
+            "apcer_percent": 32.0,
+            "ci_95": {
+              "point": 32.0,
+              "lower": 17.21,
+              "upper": 51.59
+            }
+          }
+        }
+      },
+      "th_at_apcer_1_dev": 0.9501,
+      "test_eval_at_dev_th_1": {
+        "threshold": 0.9501,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 15,
+        "false_accepts": 0,
+        "bpcer_percent": 100.0,
+        "apcer_percent": 0.0,
+        "acer_percent": 50.0,
+        "worst_apcer_percent": 0.0,
+        "ci_bpcer_95": {
+          "point": 100.0,
+          "lower": 79.61,
+          "upper": 100.0
+        },
+        "ci_apcer_95": {
+          "point": 0.0,
+          "lower": 0.0,
+          "upper": 8.76
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 13.32
+            }
+          }
+        }
+      },
+      "th_at_apcer_5_dev": 0.9501,
+      "test_eval_at_dev_th_5": {
+        "threshold": 0.9501,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 15,
+        "false_accepts": 0,
+        "bpcer_percent": 100.0,
+        "apcer_percent": 0.0,
+        "acer_percent": 50.0,
+        "worst_apcer_percent": 0.0,
+        "ci_bpcer_95": {
+          "point": 100.0,
+          "lower": 79.61,
+          "upper": 100.0
+        },
+        "ci_apcer_95": {
+          "point": 0.0,
+          "lower": 0.0,
+          "upper": 8.76
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 13.32
+            }
+          }
+        }
+      }
+    }
+  },
+  "texture_score": {
+    "auc": 0.9875,
+    "eer_percent": 1.25,
+    "eer_threshold": 0.88,
+    "bpcer_at_apcer_1_percent": 100.0,
+    "threshold_at_apcer_1": 0.8801,
+    "achieved_apcer_1_percent": 0.0,
+    "bpcer_at_apcer_5_percent": 0.0,
+    "threshold_at_apcer_5": 0.88,
+    "achieved_apcer_5_percent": 2.5,
+    "eer_evaluation": {
+      "threshold": 0.88,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 0,
+      "false_accepts": 1,
+      "bpcer_percent": 0.0,
+      "apcer_percent": 2.5,
+      "acer_percent": 1.25,
+      "worst_apcer_percent": 4.0,
+      "ci_bpcer_95": {
+        "point": 0.0,
+        "lower": 0.0,
+        "upper": 20.39
+      },
+      "ci_apcer_95": {
+        "point": 2.5,
+        "lower": 0.44,
+        "upper": 12.88
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 20.39
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 1,
+          "apcer_percent": 4.0,
+          "ci_95": {
+            "point": 4.0,
+            "lower": 0.71,
+            "upper": 19.54
+          }
+        }
+      }
+    },
+    "fixed_apcer_1_evaluation": {
+      "threshold": 0.8801,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 15,
+      "false_accepts": 0,
+      "bpcer_percent": 100.0,
+      "apcer_percent": 0.0,
+      "acer_percent": 50.0,
+      "worst_apcer_percent": 0.0,
+      "ci_bpcer_95": {
+        "point": 100.0,
+        "lower": 79.61,
+        "upper": 100.0
+      },
+      "ci_apcer_95": {
+        "point": 0.0,
+        "lower": 0.0,
+        "upper": 8.76
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 20.39
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 13.32
+          }
+        }
+      }
+    },
+    "fixed_apcer_5_evaluation": {
+      "threshold": 0.88,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 0,
+      "false_accepts": 1,
+      "bpcer_percent": 0.0,
+      "apcer_percent": 2.5,
+      "acer_percent": 1.25,
+      "worst_apcer_percent": 4.0,
+      "ci_bpcer_95": {
+        "point": 0.0,
+        "lower": 0.0,
+        "upper": 20.39
+      },
+      "ci_apcer_95": {
+        "point": 2.5,
+        "lower": 0.44,
+        "upper": 12.88
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 20.39
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 1,
+          "apcer_percent": 4.0,
+          "ci_95": {
+            "point": 4.0,
+            "lower": 0.71,
+            "upper": 19.54
+          }
+        }
+      }
+    },
+    "calibrated_from_dev": {
+      "eer_threshold_dev": 0.88,
+      "test_eval_at_dev_eer": {
+        "threshold": 0.88,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 0,
+        "false_accepts": 1,
+        "bpcer_percent": 0.0,
+        "apcer_percent": 2.5,
+        "acer_percent": 1.25,
+        "worst_apcer_percent": 4.0,
+        "ci_bpcer_95": {
+          "point": 0.0,
+          "lower": 0.0,
+          "upper": 20.39
+        },
+        "ci_apcer_95": {
+          "point": 2.5,
+          "lower": 0.44,
+          "upper": 12.88
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 1,
+            "apcer_percent": 4.0,
+            "ci_95": {
+              "point": 4.0,
+              "lower": 0.71,
+              "upper": 19.54
+            }
+          }
+        }
+      },
+      "th_at_apcer_1_dev": 0.8801,
+      "test_eval_at_dev_th_1": {
+        "threshold": 0.8801,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 15,
+        "false_accepts": 0,
+        "bpcer_percent": 100.0,
+        "apcer_percent": 0.0,
+        "acer_percent": 50.0,
+        "worst_apcer_percent": 0.0,
+        "ci_bpcer_95": {
+          "point": 100.0,
+          "lower": 79.61,
+          "upper": 100.0
+        },
+        "ci_apcer_95": {
+          "point": 0.0,
+          "lower": 0.0,
+          "upper": 8.76
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 13.32
+            }
+          }
+        }
+      },
+      "th_at_apcer_5_dev": 0.8801,
+      "test_eval_at_dev_th_5": {
+        "threshold": 0.8801,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 15,
+        "false_accepts": 0,
+        "bpcer_percent": 100.0,
+        "apcer_percent": 0.0,
+        "acer_percent": 50.0,
+        "worst_apcer_percent": 0.0,
+        "ci_bpcer_95": {
+          "point": 100.0,
+          "lower": 79.61,
+          "upper": 100.0
+        },
+        "ci_apcer_95": {
+          "point": 0.0,
+          "lower": 0.0,
+          "upper": 8.76
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 13.32
+            }
+          }
+        }
+      }
+    }
+  },
+  "motion_score": {
+    "auc": 0.5475,
+    "eer_percent": 45.42,
+    "eer_threshold": 1.0,
+    "bpcer_at_apcer_1_percent": 100.0,
+    "threshold_at_apcer_1": 1.0001,
+    "achieved_apcer_1_percent": 0.0,
+    "bpcer_at_apcer_5_percent": 100.0,
+    "threshold_at_apcer_5": 1.0001,
+    "achieved_apcer_5_percent": 0.0,
+    "eer_evaluation": {
+      "threshold": 1.0,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 2,
+      "false_accepts": 31,
+      "bpcer_percent": 13.33,
+      "apcer_percent": 77.5,
+      "acer_percent": 45.42,
+      "worst_apcer_percent": 96.0,
+      "ci_bpcer_95": {
+        "point": 13.33,
+        "lower": 3.74,
+        "upper": 37.88
+      },
+      "ci_apcer_95": {
+        "point": 77.5,
+        "lower": 62.5,
+        "upper": 87.68
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 7,
+          "apcer_percent": 46.67,
+          "ci_95": {
+            "point": 46.67,
+            "lower": 24.81,
+            "upper": 69.88
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 24,
+          "apcer_percent": 96.0,
+          "ci_95": {
+            "point": 96.0,
+            "lower": 80.46,
+            "upper": 99.29
+          }
+        }
+      }
+    },
+    "fixed_apcer_1_evaluation": {
+      "threshold": 1.0001,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 15,
+      "false_accepts": 0,
+      "bpcer_percent": 100.0,
+      "apcer_percent": 0.0,
+      "acer_percent": 50.0,
+      "worst_apcer_percent": 0.0,
+      "ci_bpcer_95": {
+        "point": 100.0,
+        "lower": 79.61,
+        "upper": 100.0
+      },
+      "ci_apcer_95": {
+        "point": 0.0,
+        "lower": 0.0,
+        "upper": 8.76
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 20.39
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 13.32
+          }
+        }
+      }
+    },
+    "fixed_apcer_5_evaluation": {
+      "threshold": 1.0001,
+      "n_bona": 15,
+      "n_attack": 40,
+      "false_rejects": 15,
+      "false_accepts": 0,
+      "bpcer_percent": 100.0,
+      "apcer_percent": 0.0,
+      "acer_percent": 50.0,
+      "worst_apcer_percent": 0.0,
+      "ci_bpcer_95": {
+        "point": 100.0,
+        "lower": 79.61,
+        "upper": 100.0
+      },
+      "ci_apcer_95": {
+        "point": 0.0,
+        "lower": 0.0,
+        "upper": 8.76
+      },
+      "attack_breakdown": {
+        "print_photo": {
+          "total": 15,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 20.39
+          }
+        },
+        "screen_replay": {
+          "total": 25,
+          "false_accepts": 0,
+          "apcer_percent": 0.0,
+          "ci_95": {
+            "point": 0.0,
+            "lower": 0.0,
+            "upper": 13.32
+          }
+        }
+      }
+    },
+    "calibrated_from_dev": {
+      "eer_threshold_dev": 1.0,
+      "test_eval_at_dev_eer": {
+        "threshold": 1.0,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 2,
+        "false_accepts": 31,
+        "bpcer_percent": 13.33,
+        "apcer_percent": 77.5,
+        "acer_percent": 45.42,
+        "worst_apcer_percent": 96.0,
+        "ci_bpcer_95": {
+          "point": 13.33,
+          "lower": 3.74,
+          "upper": 37.88
+        },
+        "ci_apcer_95": {
+          "point": 77.5,
+          "lower": 62.5,
+          "upper": 87.68
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 7,
+            "apcer_percent": 46.67,
+            "ci_95": {
+              "point": 46.67,
+              "lower": 24.81,
+              "upper": 69.88
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 24,
+            "apcer_percent": 96.0,
+            "ci_95": {
+              "point": 96.0,
+              "lower": 80.46,
+              "upper": 99.29
+            }
+          }
+        }
+      },
+      "th_at_apcer_1_dev": 1.0001,
+      "test_eval_at_dev_th_1": {
+        "threshold": 1.0001,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 15,
+        "false_accepts": 0,
+        "bpcer_percent": 100.0,
+        "apcer_percent": 0.0,
+        "acer_percent": 50.0,
+        "worst_apcer_percent": 0.0,
+        "ci_bpcer_95": {
+          "point": 100.0,
+          "lower": 79.61,
+          "upper": 100.0
+        },
+        "ci_apcer_95": {
+          "point": 0.0,
+          "lower": 0.0,
+          "upper": 8.76
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 13.32
+            }
+          }
+        }
+      },
+      "th_at_apcer_5_dev": 1.0001,
+      "test_eval_at_dev_th_5": {
+        "threshold": 1.0001,
+        "n_bona": 15,
+        "n_attack": 40,
+        "false_rejects": 15,
+        "false_accepts": 0,
+        "bpcer_percent": 100.0,
+        "apcer_percent": 0.0,
+        "acer_percent": 50.0,
+        "worst_apcer_percent": 0.0,
+        "ci_bpcer_95": {
+          "point": 100.0,
+          "lower": 79.61,
+          "upper": 100.0
+        },
+        "ci_apcer_95": {
+          "point": 0.0,
+          "lower": 0.0,
+          "upper": 8.76
+        },
+        "attack_breakdown": {
+          "print_photo": {
+            "total": 15,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 20.39
+            }
+          },
+          "screen_replay": {
+            "total": 25,
+            "false_accepts": 0,
+            "apcer_percent": 0.0,
+            "ci_95": {
+              "point": 0.0,
+              "lower": 0.0,
+              "upper": 13.32
+            }
+          }
+        }
+      }
+    }
+  }
+}

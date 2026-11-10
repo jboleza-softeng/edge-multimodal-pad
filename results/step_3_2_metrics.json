@@ -1,0 +1,36 @@
+{
+  "dev": {
+    "auc": 0.9763,
+    "eer_pct": 5.56,
+    "calibrated_tau": 0.8096,
+    "bpcer_at_apcer_1_pct": 46.67,
+    "bpcer_at_apcer_5_pct": 6.67
+  },
+  "test": {
+    "auc": 0.97667,
+    "apcer_pct": 2.5,
+    "bpcer_pct": 13.33,
+    "acer_pct": 7.92,
+    "print_apcer_pct": 0.0,
+    "screen_apcer_pct": 4.0,
+    "bpcer_at_dev_th_1_pct": 26.67,
+    "bpcer_at_dev_th_5_pct": 13.33
+  },
+  "progression": {
+    "test_bpcer": {
+      "baseline": 20.0,
+      "step_3_1": 13.33,
+      "step_3_2": 13.33
+    },
+    "test_acer": {
+      "baseline": 11.25,
+      "step_3_1": 7.92,
+      "step_3_2": 7.92
+    },
+    "test_apcer": {
+      "baseline": 2.5,
+      "step_3_1": 2.5,
+      "step_3_2": 2.5
+    }
+  }
+}

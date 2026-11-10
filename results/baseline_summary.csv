@@ -1,0 +1,6 @@
+stream,dev_auc,dev_eer_pct,dev_eer_th,dev_bpcer_at_apcer_1,dev_bpcer_at_apcer_5,test_auc,test_eer_pct,test_apcer_at_dev_eer,test_bpcer_at_dev_eer,test_acer_at_dev_eer,test_apcer_print,test_apcer_screen,test_bpcer_at_dev_th_1,test_apcer_at_dev_th_1,test_bpcer_at_dev_th_5,test_apcer_at_dev_th_5
+fused_score,0.97481,6.67,0.7038,66.67,20.0,0.97667,1.25,2.5,20.0,11.25,0.0,4.0,66.67,2.5,60.0,2.5
+depth_score,0.49333,52.22,0.8223,100.0,100.0,0.89,12.92,7.5,53.33,30.42,0.0,12.0,100.0,0.0,93.33,0.0
+rppg_score,0.61556,26.67,0.7542,100.0,100.0,0.365,56.25,47.5,60.0,53.75,73.33,32.0,100.0,0.0,100.0,0.0
+texture_score,0.93333,6.67,0.88,100.0,100.0,0.9875,1.25,2.5,0.0,1.25,0.0,4.0,100.0,0.0,100.0,0.0
+motion_score,0.29926,71.11,1.0,100.0,100.0,0.5475,45.42,77.5,13.33,45.42,46.67,96.0,100.0,0.0,100.0,0.0

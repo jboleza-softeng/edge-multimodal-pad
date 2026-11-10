@@ -1,0 +1,659 @@
+{
+  "operating_threshold": 0.7038,
+  "false_reject_summary": {
+    "total_count": 8,
+    "dominant_patterns": {
+      "rppg_snr_failure": 5,
+      "rppg_uncalibrated_bpm_zero": 8,
+      "depth_low_rms_planar": 4,
+      "depth_flat_facing_camera": 3,
+      "motion_frozen_flutter": 0,
+      "low_lighting_under_60_lux": 4
+    },
+    "samples": [
+      {
+        "trial_id": 1,
+        "split": "train",
+        "fused_score": 0.2,
+        "depth_score": 0.12,
+        "depth_rms": 0.004463,
+        "rppg_score": 0.15,
+        "rppg_bpm": 0,
+        "rppg_snr_db": 0.0,
+        "motion_score": 0.9607,
+        "max_ear_delta": 0.01384,
+        "texture_score": 0.88,
+        "laplacian_var": 242.04,
+        "ambient_lux": 59.0,
+        "execution_ms": 1134.1,
+        "failure_reasons": [
+          "rPPG Low (score=0.15, SNR=0.0dB, BPM=0)",
+          "Depth Planar/Low (score=0.12, RMS=0.00446)"
+        ]
+      },
+      {
+        "trial_id": 2,
+        "split": "train",
+        "fused_score": 0.5811,
+        "depth_score": 0.372,
+        "depth_rms": 0.005264,
+        "rppg_score": 0.15,
+        "rppg_bpm": 0,
+        "rppg_snr_db": 0.52,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.02761,
+        "texture_score": 0.88,
+        "laplacian_var": 176.0,
+        "ambient_lux": 59.0,
+        "execution_ms": 701.9,
+        "failure_reasons": [
+          "rPPG Low (score=0.15, SNR=0.5dB, BPM=0)",
+          "Depth Planar/Low (score=0.37, RMS=0.00526)"
+        ]
+      },
+      {
+        "trial_id": 4,
+        "split": "train",
+        "fused_score": 0.7027,
+        "depth_score": 0.7775,
+        "depth_rms": 0.013164,
+        "rppg_score": 0.15,
+        "rppg_bpm": 0,
+        "rppg_snr_db": 0.67,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.04456,
+        "texture_score": 0.88,
+        "laplacian_var": 211.84,
+        "ambient_lux": 59.0,
+        "execution_ms": 711.3,
+        "failure_reasons": [
+          "rPPG Low (score=0.15, SNR=0.7dB, BPM=0)"
+        ]
+      },
+      {
+        "trial_id": 12,
+        "split": "train",
+        "fused_score": 0.6866,
+        "depth_score": 0.7654,
+        "depth_rms": 0.012359,
+        "rppg_score": 0.1,
+        "rppg_bpm": 0,
+        "rppg_snr_db": 4.81,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.03236,
+        "texture_score": 0.88,
+        "laplacian_var": 193.11,
+        "ambient_lux": 57.0,
+        "execution_ms": 785.3,
+        "failure_reasons": [
+          "rPPG Low (score=0.10, SNR=4.8dB, BPM=0)"
+        ]
+      },
+      {
+        "trial_id": 23,
+        "split": "dev",
+        "fused_score": 0.5948,
+        "depth_score": 0.4593,
+        "depth_rms": 0.006312,
+        "rppg_score": 0.1,
+        "rppg_bpm": 0,
+        "rppg_snr_db": 5.03,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.02403,
+        "texture_score": 0.88,
+        "laplacian_var": 196.76,
+        "ambient_lux": 60.0,
+        "execution_ms": 693.8,
+        "failure_reasons": [
+          "rPPG Low (score=0.10, SNR=5.0dB, BPM=0)",
+          "Depth Planar/Low (score=0.46, RMS=0.00631)"
+        ]
+      },
+      {
+        "trial_id": 31,
+        "split": "test",
+        "fused_score": 0.6792,
+        "depth_score": 0.7405,
+        "depth_rms": 0.010703,
+        "rppg_score": 0.1,
+        "rppg_bpm": 0,
+        "rppg_snr_db": 4.14,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.02141,
+        "texture_score": 0.88,
+        "laplacian_var": 180.69,
+        "ambient_lux": 61.0,
+        "execution_ms": 705.2,
+        "failure_reasons": [
+          "rPPG Low (score=0.10, SNR=4.1dB, BPM=0)"
+        ]
+      },
+      {
+        "trial_id": 36,
+        "split": "test",
+        "fused_score": 0.6321,
+        "depth_score": 0.542,
+        "depth_rms": 0.007304,
+        "rppg_score": 0.15,
+        "rppg_bpm": 0,
+        "rppg_snr_db": 1.42,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.03342,
+        "texture_score": 0.88,
+        "laplacian_var": 117.18,
+        "ambient_lux": 61.0,
+        "execution_ms": 776.0,
+        "failure_reasons": [
+          "rPPG Low (score=0.15, SNR=1.4dB, BPM=0)"
+        ]
+      },
+      {
+        "trial_id": 42,
+        "split": "test",
+        "fused_score": 0.6757,
+        "depth_score": 0.7446,
+        "depth_rms": 0.010977,
+        "rppg_score": 0.15,
+        "rppg_bpm": 0,
+        "rppg_snr_db": 0.38,
+        "motion_score": 0.9427,
+        "max_ear_delta": 0.01158,
+        "texture_score": 0.88,
+        "laplacian_var": 154.38,
+        "ambient_lux": 65.0,
+        "execution_ms": 727.0,
+        "failure_reasons": [
+          "rPPG Low (score=0.15, SNR=0.4dB, BPM=0)"
+        ]
+      }
+    ]
+  },
+  "false_accept_summary": {
+    "total_count": 20,
+    "dominant_patterns": {
+      "print_photo_attacks": 3,
+      "screen_replay_attacks": 17,
+      "pseudo_rppg_cardiac_leakage": 18,
+      "high_depth_rms_surface_curvature": 12,
+      "low_glare_screen_matte_lighting": 17
+    },
+    "samples": [
+      {
+        "trial_id": 64,
+        "split": "train",
+        "sample_category": "print_photo",
+        "fused_score": 0.8742,
+        "depth_score": 0.774,
+        "depth_rms": 0.012935,
+        "rppg_score": 0.84,
+        "rppg_bpm": 52,
+        "rppg_snr_db": 3.4,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.05031,
+        "texture_score": 0.88,
+        "laplacian_var": 223.91,
+        "glare_ratio": 0.0,
+        "blue_ratio": 0.3055,
+        "ambient_lux": 39.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.84, SNR=3.4dB, BPM=52)",
+          "Depth False Relief (score=0.77, RMS=0.01294)",
+          "Texture Passed (score=0.88, Var=223.9)"
+        ]
+      },
+      {
+        "trial_id": 65,
+        "split": "train",
+        "sample_category": "print_photo",
+        "fused_score": 0.8726,
+        "depth_score": 0.7253,
+        "depth_rms": 0.009688,
+        "rppg_score": 0.892,
+        "rppg_bpm": 84,
+        "rppg_snr_db": 3.92,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.0232,
+        "texture_score": 0.88,
+        "laplacian_var": 195.74,
+        "glare_ratio": 0.0,
+        "blue_ratio": 0.2667,
+        "ambient_lux": 37.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.89, SNR=3.9dB, BPM=84)",
+          "Depth False Relief (score=0.73, RMS=0.00969)",
+          "Texture Passed (score=0.88, Var=195.7)"
+        ]
+      },
+      {
+        "trial_id": 79,
+        "split": "dev",
+        "sample_category": "print_photo",
+        "fused_score": 0.8798,
+        "depth_score": 0.7011,
+        "depth_rms": 0.008076,
+        "rppg_score": 0.95,
+        "rppg_bpm": 64,
+        "rppg_snr_db": 5.16,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.0395,
+        "texture_score": 0.88,
+        "laplacian_var": 198.8,
+        "glare_ratio": 0.0,
+        "blue_ratio": 0.2845,
+        "ambient_lux": 38.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.95, SNR=5.2dB, BPM=64)",
+          "Depth False Relief (score=0.70, RMS=0.00808)",
+          "Texture Passed (score=0.88, Var=198.8)"
+        ]
+      },
+      {
+        "trial_id": 110,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.8193,
+        "depth_score": 0.4992,
+        "depth_rms": 0.00679,
+        "rppg_score": 0.95,
+        "rppg_bpm": 51,
+        "rppg_snr_db": 5.35,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.06119,
+        "texture_score": 0.88,
+        "laplacian_var": 281.65,
+        "glare_ratio": 0.0,
+        "blue_ratio": 0.291,
+        "ambient_lux": 53.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.95, SNR=5.3dB, BPM=51)",
+          "Texture Passed (score=0.88, Var=281.6)"
+        ]
+      },
+      {
+        "trial_id": 111,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.9365,
+        "depth_score": 0.89,
+        "depth_rms": 0.020666,
+        "rppg_score": 0.95,
+        "rppg_bpm": 52,
+        "rppg_snr_db": 4.78,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.09268,
+        "texture_score": 0.88,
+        "laplacian_var": 173.49,
+        "glare_ratio": 0.0002,
+        "blue_ratio": 0.2907,
+        "ambient_lux": 59.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.95, SNR=4.8dB, BPM=52)",
+          "Depth False Relief (score=0.89, RMS=0.02067)",
+          "Texture Passed (score=0.88, Var=173.5)"
+        ]
+      },
+      {
+        "trial_id": 112,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.757,
+        "depth_score": 1.0,
+        "depth_rms": 0.028552,
+        "rppg_score": 0.1,
+        "rppg_bpm": 0,
+        "rppg_snr_db": 5.68,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.09268,
+        "texture_score": 0.88,
+        "laplacian_var": 256.99,
+        "glare_ratio": 0.0002,
+        "blue_ratio": 0.2976,
+        "ambient_lux": 55.0,
+        "failure_reasons": [
+          "Depth False Relief (score=1.00, RMS=0.02855)",
+          "Texture Passed (score=0.88, Var=257.0)"
+        ]
+      },
+      {
+        "trial_id": 115,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.8409,
+        "depth_score": 0.7427,
+        "depth_rms": 0.010845,
+        "rppg_score": 0.7443,
+        "rppg_bpm": 89,
+        "rppg_snr_db": 2.44,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.07733,
+        "texture_score": 0.88,
+        "laplacian_var": 168.76,
+        "glare_ratio": 0.0005,
+        "blue_ratio": 0.2878,
+        "ambient_lux": 57.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.74, SNR=2.4dB, BPM=89)",
+          "Depth False Relief (score=0.74, RMS=0.01085)",
+          "Texture Passed (score=0.88, Var=168.8)"
+        ]
+      },
+      {
+        "trial_id": 117,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.7871,
+        "depth_score": 0.511,
+        "depth_rms": 0.006932,
+        "rppg_score": 0.8071,
+        "rppg_bpm": 65,
+        "rppg_snr_db": 3.07,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.07139,
+        "texture_score": 0.88,
+        "laplacian_var": 258.41,
+        "glare_ratio": 0.0002,
+        "blue_ratio": 0.2901,
+        "ambient_lux": 56.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.81, SNR=3.1dB, BPM=65)",
+          "Depth False Relief (score=0.51, RMS=0.00693)",
+          "Texture Passed (score=0.88, Var=258.4)"
+        ]
+      },
+      {
+        "trial_id": 118,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.8795,
+        "depth_score": 0.8011,
+        "depth_rms": 0.014742,
+        "rppg_score": 0.8288,
+        "rppg_bpm": 63,
+        "rppg_snr_db": 3.29,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.07399,
+        "texture_score": 0.88,
+        "laplacian_var": 286.41,
+        "glare_ratio": 0.0002,
+        "blue_ratio": 0.2933,
+        "ambient_lux": 55.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.83, SNR=3.3dB, BPM=63)",
+          "Depth False Relief (score=0.80, RMS=0.01474)",
+          "Texture Passed (score=0.88, Var=286.4)"
+        ]
+      },
+      {
+        "trial_id": 119,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.8464,
+        "depth_score": 0.7557,
+        "depth_rms": 0.011711,
+        "rppg_score": 0.7507,
+        "rppg_bpm": 107,
+        "rppg_snr_db": 2.51,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.05978,
+        "texture_score": 0.88,
+        "laplacian_var": 150.72,
+        "glare_ratio": 0.0002,
+        "blue_ratio": 0.2902,
+        "ambient_lux": 53.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.75, SNR=2.5dB, BPM=107)",
+          "Depth False Relief (score=0.76, RMS=0.01171)",
+          "Texture Passed (score=0.88, Var=150.7)"
+        ]
+      },
+      {
+        "trial_id": 120,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.7283,
+        "depth_score": 0.3684,
+        "depth_rms": 0.00522,
+        "rppg_score": 0.7433,
+        "rppg_bpm": 105,
+        "rppg_snr_db": 2.43,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.06313,
+        "texture_score": 0.88,
+        "laplacian_var": 194.79,
+        "glare_ratio": 0.0005,
+        "blue_ratio": 0.2856,
+        "ambient_lux": 52.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.74, SNR=2.4dB, BPM=105)",
+          "Texture Passed (score=0.88, Var=194.8)"
+        ]
+      },
+      {
+        "trial_id": 134,
+        "split": "test",
+        "sample_category": "screen_replay",
+        "fused_score": 0.9263,
+        "depth_score": 0.856,
+        "depth_rms": 0.018399,
+        "rppg_score": 0.95,
+        "rppg_bpm": 57,
+        "rppg_snr_db": 6.06,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.06602,
+        "texture_score": 0.88,
+        "laplacian_var": 244.08,
+        "glare_ratio": 0.0002,
+        "blue_ratio": 0.2868,
+        "ambient_lux": 42.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.95, SNR=6.1dB, BPM=57)",
+          "Depth False Relief (score=0.86, RMS=0.01840)",
+          "Texture Passed (score=0.88, Var=244.1)"
+        ]
+      },
+      {
+        "trial_id": 136,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.8655,
+        "depth_score": 0.7305,
+        "depth_rms": 0.010032,
+        "rppg_score": 0.8908,
+        "rppg_bpm": 70,
+        "rppg_snr_db": 3.91,
+        "motion_score": 0.9721,
+        "max_ear_delta": 0.01527,
+        "texture_score": 0.88,
+        "laplacian_var": 470.54,
+        "glare_ratio": 0.0,
+        "blue_ratio": 0.2835,
+        "ambient_lux": 56.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.89, SNR=3.9dB, BPM=70)",
+          "Depth False Relief (score=0.73, RMS=0.01003)",
+          "Texture Passed (score=0.88, Var=470.5)"
+        ]
+      },
+      {
+        "trial_id": 137,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.7959,
+        "depth_score": 0.7048,
+        "depth_rms": 0.00832,
+        "rppg_score": 0.6098,
+        "rppg_bpm": 86,
+        "rppg_snr_db": 1.87,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.05445,
+        "texture_score": 0.88,
+        "laplacian_var": 420.42,
+        "glare_ratio": 0.0,
+        "blue_ratio": 0.2745,
+        "ambient_lux": 57.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.61, SNR=1.9dB, BPM=86)",
+          "Depth False Relief (score=0.70, RMS=0.00832)",
+          "Texture Passed (score=0.88, Var=420.4)"
+        ]
+      },
+      {
+        "trial_id": 140,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.7635,
+        "depth_score": 0.5865,
+        "depth_rms": 0.007837,
+        "rppg_score": 0.6221,
+        "rppg_bpm": 55,
+        "rppg_snr_db": 1.95,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.05882,
+        "texture_score": 0.88,
+        "laplacian_var": 372.29,
+        "glare_ratio": 0.0,
+        "blue_ratio": 0.2691,
+        "ambient_lux": 48.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.62, SNR=1.9dB, BPM=55)",
+          "Depth False Relief (score=0.59, RMS=0.00784)",
+          "Texture Passed (score=0.88, Var=372.3)"
+        ]
+      },
+      {
+        "trial_id": 142,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.8243,
+        "depth_score": 0.516,
+        "depth_rms": 0.006991,
+        "rppg_score": 0.95,
+        "rppg_bpm": 74,
+        "rppg_snr_db": 4.68,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.05901,
+        "texture_score": 0.88,
+        "laplacian_var": 437.49,
+        "glare_ratio": 0.0,
+        "blue_ratio": 0.2641,
+        "ambient_lux": 42.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.95, SNR=4.7dB, BPM=74)",
+          "Depth False Relief (score=0.52, RMS=0.00699)",
+          "Texture Passed (score=0.88, Var=437.5)"
+        ]
+      },
+      {
+        "trial_id": 143,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.8373,
+        "depth_score": 0.5593,
+        "depth_rms": 0.007511,
+        "rppg_score": 0.95,
+        "rppg_bpm": 68,
+        "rppg_snr_db": 6.19,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.09753,
+        "texture_score": 0.88,
+        "laplacian_var": 275.03,
+        "glare_ratio": 0.0,
+        "blue_ratio": 0.2668,
+        "ambient_lux": 44.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.95, SNR=6.2dB, BPM=68)",
+          "Depth False Relief (score=0.56, RMS=0.00751)",
+          "Texture Passed (score=0.88, Var=275.0)"
+        ]
+      },
+      {
+        "trial_id": 144,
+        "split": "train",
+        "sample_category": "screen_replay",
+        "fused_score": 0.8848,
+        "depth_score": 0.7177,
+        "depth_rms": 0.009179,
+        "rppg_score": 0.95,
+        "rppg_bpm": 50,
+        "rppg_snr_db": 6.25,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.09616,
+        "texture_score": 0.88,
+        "laplacian_var": 335.46,
+        "glare_ratio": 0.0,
+        "blue_ratio": 0.2681,
+        "ambient_lux": 47.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.95, SNR=6.2dB, BPM=50)",
+          "Depth False Relief (score=0.72, RMS=0.00918)",
+          "Texture Passed (score=0.88, Var=335.5)"
+        ]
+      },
+      {
+        "trial_id": 171,
+        "split": "dev",
+        "sample_category": "screen_replay",
+        "fused_score": 0.7508,
+        "depth_score": 0.3736,
+        "depth_rms": 0.005283,
+        "rppg_score": 0.5,
+        "rppg_bpm": 0,
+        "rppg_snr_db": 0.0,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.0764,
+        "texture_score": 0.88,
+        "laplacian_var": 316.2,
+        "glare_ratio": 0.0,
+        "blue_ratio": 0.2556,
+        "ambient_lux": 37.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.50, SNR=0.0dB, BPM=0)",
+          "Texture Passed (score=0.88, Var=316.2)"
+        ]
+      },
+      {
+        "trial_id": 172,
+        "split": "dev",
+        "sample_category": "screen_replay",
+        "fused_score": 0.7422,
+        "depth_score": 0.3816,
+        "depth_rms": 0.00538,
+        "rppg_score": 0.7828,
+        "rppg_bpm": 81,
+        "rppg_snr_db": 2.83,
+        "motion_score": 1.0,
+        "max_ear_delta": 0.20841,
+        "texture_score": 0.88,
+        "laplacian_var": 237.19,
+        "glare_ratio": 0.0,
+        "blue_ratio": 0.2501,
+        "ambient_lux": 42.0,
+        "failure_reasons": [
+          "rPPG Spectral Leak (score=0.78, SNR=2.8dB, BPM=81)",
+          "Texture Passed (score=0.88, Var=237.2)"
+        ]
+      }
+    ]
+  },
+  "rppg_signal_quality_genuine": {
+    "total_genuine_users": 45,
+    "accepted_genuine_users": 37,
+    "rejected_genuine_users": 8,
+    "snr_stats_accepted": {
+      "mean": 3.9535135135135135,
+      "std": 2.1075053923961806,
+      "min": 0.0,
+      "max": 8.79
+    },
+    "snr_stats_rejected": {
+      "mean": 2.12125,
+      "std": 2.153372355167587,
+      "min": 0.0,
+      "max": 5.03
+    },
+    "rejected_snr_under_1_8db_count": 5,
+    "rejected_bpm_zero_count": 8,
+    "rejected_mean_execution_ms": 779.325,
+    "accepted_mean_execution_ms": 748.7351351351351
+  }
+}

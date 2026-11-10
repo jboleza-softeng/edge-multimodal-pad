@@ -1,0 +1,6 @@
+Presentation Category,Cohort,Trials,Errors,Metric
+Bona Fide (Live Human),Unseen S11-S15,25,0,"BPCER = 0.00% [0.00%, 13.72%]"
+PAI-1 (Print Attack),Unseen S11-S15,25,0,"APCER_Print = 0.00% [0.00%, 13.72%]"
+PAI-2 (Screen Replay),Unseen S11-S15,25,0,"APCER_Screen = 0.00% [0.00%, 13.72%]"
+Worst-Case APCER,Unseen S11-S15,50,0,"APCER = 0.00% [0.00%, 7.11%]"
+Overall System ACER,Unseen S11-S15,75,0,ACER = 0.00% (at tau = 0.4894)
